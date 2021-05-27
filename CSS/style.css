@@ -24,7 +24,8 @@ h1 {
 }
 .font-cinzel {
     font-family: 'Cinzel Decorative' ;
-    font-size: 40px;
+    font-size: 45px;
+    font-weight: 500;
 }
 /* cinzel-decorative-900 - latin */
 @font-face {
