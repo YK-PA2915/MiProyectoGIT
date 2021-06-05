@@ -26,6 +26,9 @@ h1 {
     font-family: 'Cinzel Decorative', cursive;
     font-size: 45px;
 }
+span.font-beautiful {
+    font-family: font-family: 'Rubik Mono One', sans-serif;
+}
 p.font-42 {
     font-size: 42px;
     color: limegreen;
@@ -50,6 +53,18 @@ p {
 .color-instagram {
         /*color llamado por su hexadecimal*/
     color: #C13584;
+}
+.color-platzi {
+    color: rgb(152,202,63);
+}
+.Espaciado-letras {
+    letter-spacing: 0.3em;
+}
+.Espaciado-palabras {
+    word-spacing: 0.8em;
+}
+.Espaciado-lineas {
+    line-height: 4em;
 }
 /* cinzel-decorative-900 - latin */
 @font-face {
