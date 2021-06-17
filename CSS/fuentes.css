@@ -41,13 +41,13 @@ p {
     font-size: 2em;
 }
 .Espaciado-letras {
-    letter-spacing: 0.3em;
+     letter-spacing: 0.3em;
 }
 .Espaciado-palabras {
-    word-spacing: 0.8em;
+     word-spacing: 0.8em;
 }
 .Espaciado-lineas {
-    line-height: 4em;
+     line-height: 4em;
 }
 /* cinzel-decorative-900 - latin */
 @font-face {
