@@ -19,10 +19,7 @@
     font-family: 'Kaushan Script', cursive;
     font-size: 64px;
 }
-.font-cinzel {
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 45px;
-}
+
 p.font-42 {
     font-size: 42px;
     color: limegreen;
@@ -49,7 +46,12 @@ p {
 .Espaciado-lineas {
      line-height: 4em;
 }
-/* cinzel-decorative-900 - latin */
+.font-cinzel {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 45px;
+}
+cinzel-decorative-900- latin 
+
 @font-face {
     font-family: 'Cinzel Decorative';
     font-style: normal;
