@@ -1,0 +1,85 @@
+body {
+    margin: 0 4em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+   
+}
+.texto-margenes {
+
+/*declarando los cuatro lados de forma explicita*/
+   /* margin-left: 2em;
+    margin-top: 3em;
+    margin-right: 2em;*/
+    text-align: justify;
+    font-size: 1.5em;
+    
+    
+/*afecta los cuatro lados*/
+/*margin:3em;*/
+/*afecta los cuatro lados individualmente pero lo declaro en una sola linea*/
+/*margin:4em,3em,3em.4em;*/
+/*afecta los cuatro lados declarado en dos valores//
+/*margin: 1em,8em;*/
+    
+}
+.parrafo-borde1 {
+    font-size: 1.5em;
+    text-align: justify;
+    /*margin: 2em 4em;*/
+    border: 4px solid green;
+    /*tipos: solid, double*/
+}
+.parrafo-borde2 {
+    margin-top:  2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    /*margin: 2em 4em;*/
+    border-top: 3px solid burlywood;
+    
+}
+.parrafo-borde3 {
+    margin-top:  2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-left: 3px solid cornflowerblue;
+    /*margin: 2em 4em;*/
+    border-right: 3px solid cornflowerblue;
+
+}
+
+.parrafo-padding1 {
+    font-size: 1.5em;
+    text-align: justify;
+    /*margin: 2em 4em;*/
+    border: 4px solid green;
+    /*tipos: solid, double*/
+    padding: 1.5em;
+    background-color: darkcyan;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.parrafo-padding2 {
+    margin-top:  2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    /*margin: 2em 4em;*/
+    border-top: 3px solid burlywood;
+    padding-top: 2em;
+
+    
+}
+.parrafo-padding3 {
+    margin-top:  2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-left: 3px solid cornflowerblue;
+    /*margin: 2em 4em;*/
+    border-right: 3px solid cornflowerblue;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+
+}
