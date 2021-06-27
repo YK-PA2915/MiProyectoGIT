@@ -1,0 +1,27 @@
+body {
+    margin: 0 5em;
+}
+
+h1 {
+    text-align: center;
+    font-size:3em ;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-catalogo {
+    display: inline;
+}
+p {
+    font-size: 2.5em;
+   text-align: center;
+   line-height: 0.2em;
+}
+div {
+    display: inline-block;
+    background-color: white;
+    margin: 30px;
+    
+}
