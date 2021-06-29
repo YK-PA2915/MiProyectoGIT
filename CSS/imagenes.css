@@ -1,7 +1,6 @@
 body {
     margin: 0 5em;
 }
-
 h1 {
     text-align: center;
     font-size:3em ;
@@ -22,6 +21,5 @@ p {
 div {
     display: inline-block;
     background-color: white;
-    margin: 30px;
-    
+    margin: 30px;   
 }
