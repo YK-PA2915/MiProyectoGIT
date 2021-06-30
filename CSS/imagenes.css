@@ -5,6 +5,12 @@ h1 {
     text-align: center;
     font-size:3em ;
 }
+h2 {
+    font-size: 2.4em;
+    font-weight: 700 ;
+    color: red;
+    text-align: center;
+}
 img {
     display: block;
     margin-left: auto;
@@ -21,5 +27,6 @@ p {
 div {
     display: inline-block;
     background-color: white;
-    margin: 30px;   
+    margin: 40px;   
+    
 }
