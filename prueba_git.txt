@@ -1,1 +1,7 @@
 https://yk-pa2915.github.io/MiProyectoGIT/
+
+
+
+table {
+    border: 1px solid crimson;
+}
