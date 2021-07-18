@@ -5,13 +5,14 @@ table {
     border-collapse: collapse;
     font-size: 1.6em;
     margin: 0 auto;
-    border: 1px solid rgb(39,34,182);
+   /*  border: 1px solid rgb(39,34,182); */
     /* border: 1px solid  crimson ; */
    /*  border-radius: 30px; */
 }
 
 th,td {
-    border: 1px solid crimson;
+    /* border: 1px solid rgb(39,34,182); */
+    /* border: 1px solid crimson; */
     padding: 0.8em 1.5em;
     text-align: center;
     /* border-radius: 30px; */
@@ -62,4 +63,28 @@ p {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 0px
+}
+.th-LG {
+    background-color: rgb(164,0,51);
+    color: rgb(240,241,243);
+}
+.th-samsung {
+    background-color: rgb(3,77,162);
+    color: rgb(240,241,243);
+}
+.th-haceb {
+    background-color: rgb(153,155,158);
+    color: rgb(240,241,243);
+}
+.th-mabe {
+    background-color: rgb(0,114,151);
+    color: rgb(240,241,243);
+}
+.th-abba {
+    background-color: rgb(114,114,114);
+    color: rgb(240,241,243);
+}
+.th-challenger {
+    background-color: rgb(4,5,17);
+    color: rgb(240,241,243);
 }
