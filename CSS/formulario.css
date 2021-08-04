@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+fieldset {
+    
+    width: 30%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color:rgb(233, 77 , 60) ;
+    border-radius: 8px;
+    border: 1.5px solid rgb(233, 77 , 60);
+    color: whitesmoke;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    padding: 40px;
+}
+/* div {
+    margin: 30px;
+} */
+input {
+    font-size: 1em;
+    line-height: 1em;
+    
+}
+label {
+    text-align: center;
+}
+.formulario {
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: yellow; */
+}
+.input[type=checkbox] {
+    font-size: 2em;
+}
