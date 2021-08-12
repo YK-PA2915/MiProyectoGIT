@@ -1,5 +1,5 @@
 body {
-    margin: 0 5em;
+    margin: 0em;
 }
 h1 {
     text-align: center;
@@ -27,6 +27,7 @@ p {
 div {
     display: inline-block;
     background-color: white;
-    margin: 40px;   
+    margin: 40px 20px;   
+    
     
 }

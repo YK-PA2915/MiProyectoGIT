@@ -1,5 +1,6 @@
 body {
-    margin: 0 4em;
+    /* margin: 0 4em; */
+    margin:0 ;
 }
 
 h1 {
@@ -10,9 +11,10 @@ h1 {
 .texto-margenes {
 
 /*declarando los cuatro lados de forma explicita*/
-   /* margin-left: 2em;
+    /* margin-left: 2em;
     margin-top: 3em;
-    margin-right: 2em;*/
+    margin-right: 2em; */
+    margin:2em ;
     text-align: justify;
     font-size: 1.5em;
     
