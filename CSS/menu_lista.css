@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    font-size: 1.3em;
+    
+}
+a {
+    text-decoration: none;
+    color: beige;
+}
+li {
+    display: inline-block;
+    padding: 10px;
+}
+.content-main {
+    margin: 3em;
+
+}
+nav {
+    background-color: salmon;
+    font-family:'Patua One', cursive;
+}
