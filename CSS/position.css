@@ -19,7 +19,7 @@
 .pos-absolute-1, .pos-absolute-2, .pos-absolute-3 {
     width: 250px ;
     height: 250px;
-    margin-top: 50px;
+    margin-top: 1px;
     margin-left: 30px ;
     background-color: red;
     color: white;
