@@ -23,4 +23,5 @@ li {
 nav {
     background-color: salmon;
     font-family:'Patua One', cursive;
+    /* position: fixed */;
 }
