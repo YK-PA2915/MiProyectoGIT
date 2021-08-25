@@ -4,23 +4,25 @@
 }
 ul {
     list-style: none;
-    text-align: center;
+    text-align: left;
     font-size: 1.3em;
     
 }
 a {
     text-decoration: none;
     color: beige;
+    font-size: 1em;
+    font-family:'Patua One', cursive;
+
 }
 li {
     display: inline-block;
     padding: 10px;
 }
-.content-main {
-    margin: 3em;
 
-}
-nav {
+.inicio-menu {
+    list-style: none ;
     background-color: salmon;
-    font-family:'Patua One', cursive;
+    text-align: center;
+    font-size: 1.3em;
 }
