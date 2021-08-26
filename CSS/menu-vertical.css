@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: fixed;
+    height: 100%;
+    background-color: rgb(253,253,149);
+    top: 0;
+    width: 350px;
+    overflow: auto;
+}
+ul {
+    list-style: none;
+    margin: 90px 30px 40px 25px;
+}
+li {
+    padding: 25px;
+}
+a {
+    text-decoration: none;
+    color: rgb(119,153,204);
+    margin: 15px;
+    font-size: 1.6em;
+}
+i {
+    margin-right: 15px;
+}
+.content-main {
+    /* width: 90%; */
+    margin: 0 2em 0 24em;
+    text-align: justify;
+}
+p {
+    font-size: 1.1em;
+}
+
+h1 {
+    text-align: right;
+    margin-top: 30px;
+    color: rgb(70, 85, 112);
+    font-weight: 900;
+}
+.fa-book-reader {
+    margin-right: 20px;
+}
+.fa-phone  {
+    margin-right: 22px;
+}
+.fa-blogger-b {
+     margin-right: 24px;
+}
