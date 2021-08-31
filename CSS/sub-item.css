@@ -21,6 +21,11 @@ a {
     display: block;
     padding: 0 2.5em;
 }
+.children li:hover {
+    background-color: rgb(246, 118, 104);
+    height: 100%;
+    transition: .8s;
+}
 li {
     display: inline-block;
     padding:  15px 20px;
