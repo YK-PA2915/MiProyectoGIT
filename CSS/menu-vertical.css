@@ -21,7 +21,12 @@ a {
     text-decoration: none;
     color: rgb(119,153,204);
     margin: 15px;
-    font-size: 1.6em;
+    font-size: 1.56em;
+    cursor: pointer;
+
+}
+a:hover{
+    color: #000;
 }
 i {
     margin-right: 15px;

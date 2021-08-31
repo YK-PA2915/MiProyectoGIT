@@ -1,9 +1,7 @@
-
 h1 {
     text-align: center;
 }
 fieldset {
-    
     width: 30%;
     height: 100%;
     display: block;
@@ -16,9 +14,6 @@ fieldset {
     line-height: 1.8em;
     padding: 40px;
 }
-/* div {
-    margin: 30px;
-} */
 input {
     font-size: 1em;
     line-height: 1em;

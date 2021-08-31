@@ -1,10 +1,7 @@
-.menu_horizontal{
+.menu_horizontal {
     display: inline-block;
-    background-color:rgb(249, 249, 249);
+    background-color:rgb(241, 238, 238);
     width: 100%;
-/*     position: absolute;
-    margin-top: 0; */
-
 }
 ul{
     text-align: center;
@@ -12,23 +9,33 @@ ul{
 li{
     display: inline;
     padding-left: 1px;
-    padding-right: 1px;   
+    padding-right: 1px;
+    height: 100%;  
+    
+}
+.menu_horizontal a:hover {
+    background-color: rgb(212, 212, 212);
+    width: 200%;
 }
 a{
     text-decoration: none;
     color: black;
-    border-right: 1px solid rgb(255, 107, 0);
-    padding-left:  5px ;
+    border-right: 2px solid rgb(255, 107, 0);
+    padding-left:  0px ;
     padding-right: 5px;
     font-size:1.3em ;
+    cursor: pointer;
+}
+a:hover {
+    color: #000;
+    height: 100%;
 }
 .menu_vertical {
     width: 250px;
     height: 150%;
-    margin-top:10px;
-    
+    margin-top:10px; 
 }
-.vertical_a{
+.vertical_a {
     display: block;
     text-align: center;
     background-color: rgb(87, 87, 86);
@@ -39,6 +46,5 @@ a{
     border-radius: 5%;
     border-right: 8px;
 }
-/* .vertical_li{
 
-} */
+
