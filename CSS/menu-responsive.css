@@ -8,8 +8,8 @@
 nav {
     background-color: skyblue;
     width: 100%;
-/*     position: fixed;
-    top: 0; */
+    /* position: fixed; */
+    /* top: 0; */
 }
 ul {
     list-style: none;
@@ -40,6 +40,7 @@ a {
    background-color: rgb(70, 179, 230);
    text-align: center;
    cursor: pointer;
+
 }
 nav ul li:hover .children {
     display: block;
@@ -78,7 +79,7 @@ p {
     nav {
         position: fixed;  
         height: 150%;
-        width: 30%;
+        width: 35%;
         /* top: 30px; */
     }
     h1 {
@@ -93,11 +94,12 @@ p {
         position: fixed;
         top: 0;
         background-color:yellowgreen ;
-        width: 30%;
+        width: 35%;
+        height: 200%;
     }
     .bt-menu {
         display: block;
-        padding: 20px;
+        padding: 10px;
         color: white;
         font-weight: bold;
         text-decoration: none;
@@ -108,7 +110,10 @@ p {
 
     }
     p {
-        padding-left: 320px;
+        /* padding-left: 320px; */
         font-size: 1.2em;
+    }
+    .children {
+        position: relative;
     }
 }
