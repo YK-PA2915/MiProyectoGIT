@@ -126,7 +126,7 @@ p {
     nav {
         position: fixed;  
         height: 100%;
-        width: 45%;
+        width: 60%;
         /* top: 30px; */
         overflow: scroll;
     }
@@ -142,7 +142,7 @@ p {
         position: fixed;
         top: 0;
         background-color:yellowgreen ;
-        width: 45%;
+        width: 60%;
         height: 200%;
     }
     .bt-menu {
