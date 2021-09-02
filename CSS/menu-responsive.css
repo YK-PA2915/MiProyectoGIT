@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
 }
+.menu-bar {
+    display: none;
+}
 nav {
     background-color: skyblue;
     width: 100%;
-    position: fixed;
-    top: 0;
+/*     position: fixed;
+    top: 0; */
 }
 ul {
     list-style: none;
@@ -14,11 +17,11 @@ ul {
 }
 li {
     display: inline-block; 
-    position: relative;  
-}
+    position: relative; 
+} 
 nav ul li a {
     font-size: 1.3em;
-    color: rgb(255, 7, 7);
+    color: white;
     text-decoration: none;
     padding: 20px;
     padding-right: 20px;
@@ -26,15 +29,15 @@ nav ul li a {
 }
 a {
     font-size: 1.3em;
-    color: rgb(255, 7, 7);
+    color: white;
     text-decoration: none;
     padding: 20px;
     display: block;
 }
 .children {
-    position: absolute;
-    display: none;
-   background-color: rgb(248, 164, 248);
+   position: absolute;
+   display: none;
+   background-color: rgb(70, 179, 230);
    text-align: center;
    cursor: pointer;
 }
@@ -47,35 +50,65 @@ nav ul li .children li {
     border-bottom: 1px solid wheat;
 }
 nav ul li:hover {
-    background-color: violet;
+    background-color: rgb(64, 98, 232);
     transition: .8s;
 }
 nav ul li .children li a {
     display: block;
 }
 .main-content {
-    margin: 70px 30px;
+    margin: 10px 30px;
 }
 h1 {
-    margin: 35px;
+    margin:35px;
     text-align: right;
     color: crimson;
-}
+}   
 p {
     font-size: 1.3em;
     line-height: 1.4em;
     text-align: justify;
 }
 
-@media only screen and/*  (min-width:0px) and */ (max-width:680px) {
+@media only screen and/*  (min-width:0px) and */ (max-width:1100px) {
+    body {
+        padding-top: 60px;
+    }
+     
     nav {
         position: fixed;  
-        height: 100%;
-        width: 50%;
+        height: 150%;
+        width: 30%;
+        /* top: 30px; */
     }
-
+    h1 {
+         margin-top: 15px;
+    }
     nav ul li {
         display: block;
         text-align: left;
+    }
+    .menu-bar {
+        display: block;
+        position: fixed;
+        top: 0;
+        background-color:yellowgreen ;
+        width: 30%;
+    }
+    .bt-menu {
+        display: block;
+        padding: 20px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    nav ul li {
+        display: block;
+        border-bottom: 1px solid rgb(180, 225, 250);
+
+    }
+    p {
+        padding-left: 320px;
+        font-size: 1.2em;
     }
 }
