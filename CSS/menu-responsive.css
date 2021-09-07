@@ -196,7 +196,7 @@ p {
     } */
 }
 
-@media only all and (max-width:240px)  {
+@media only screen and (max-width:240px)  {
     body {
         padding-top: 60px;
     }
@@ -204,7 +204,7 @@ p {
     nav {
         position: fixed;  
         height: 100%;
-        width: 2000%;
+        width: 80%;
         left: -100%;
         /* top: 30px; */
         overflow: scroll;
