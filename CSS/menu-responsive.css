@@ -77,8 +77,15 @@ p {
     position: relative;
     top: 3px;
 }
+.fa-chevron-down {
+    margin-left: 30px;    
+}
+.fa-bars {
+    margin-left: 15px;
+    margin-right: 10px;
+}
 
-@media only screen and (min-width:640px) and (max-width:1100px) {
+@media only screen and (min-width:642px) and (max-width:1100px) {
     body {
         padding-top: 60px;
     }
@@ -86,7 +93,7 @@ p {
     nav {
         position: fixed;  
         height: 100%;
-        width: 40%;
+        width: 30%;
         left: -100%;
         /* top: 30px; */
         overflow: scroll;
@@ -108,7 +115,7 @@ p {
     }
     .bt-menu {
         display: block;
-        padding: 10px;
+        padding: 15px;
         color: white;
         font-weight: bold;
         text-decoration: none;
@@ -133,7 +140,7 @@ p {
         position: relative;
     } */
 }
-@media only screen and (max-width:640px) {
+@media only screen and (max-width:642px) {
     body {
         padding-top: 60px;
     }
@@ -163,7 +170,7 @@ p {
     }
     .bt-menu {
         display: block;
-        padding: 10px;
+        padding: 15px;
         color: white;
         font-weight: bold;
         text-decoration: none;
