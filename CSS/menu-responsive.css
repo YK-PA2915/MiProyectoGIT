@@ -112,6 +112,7 @@ p {
         color: white;
         font-weight: bold;
         text-decoration: none;
+        text-align: center;
     }
     nav ul li {
         display: block;
