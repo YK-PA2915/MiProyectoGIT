@@ -194,7 +194,7 @@ p {
         position: relative;
     } */
 }
-@media only screen and (min-width:360px)and (max-width:642px) {
+@media only screen and (min-width:240px)and (max-width:642px) {
     body {
         padding-top: 60px;
     }
@@ -202,7 +202,7 @@ p {
     nav {
         position: fixed;  
         height: 100%;
-        width: 40%;
+        width: 70%;
         left: -100%;
         /* top: 30px; */
         overflow: scroll;
