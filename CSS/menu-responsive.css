@@ -9,8 +9,9 @@
 nav {
     background-color: skyblue;
     width: 100%;
-    /* position: fixed; */
+    position: fixed;
 /*     display:inline-block; */
+top:0;
 
 }
 ul {
