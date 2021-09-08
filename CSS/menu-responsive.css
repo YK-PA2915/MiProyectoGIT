@@ -10,8 +10,8 @@ nav {
     background-color: skyblue;
     width: 100%;
     /* position: fixed; */
-    /* top: 0; */
-    top: 10%;
+/*     display:inline-block; */
+
 }
 ul {
     list-style: none;
@@ -26,7 +26,6 @@ nav ul li a {
     color: white;
     text-decoration: none;
     padding: 20px;
-    padding-right: 20px;
     display: block;
 }
 a {
@@ -60,9 +59,10 @@ nav ul li .children li a {
     display: block;
 }
 .main-content {
-    margin: 10px 30px;
+    margin: 95px 30px;
 }
 h1 {
+    margin-top: 50px;
     margin:35px;
     text-align: right;
     color: crimson;
@@ -96,8 +96,9 @@ p {
         height: 100%;
         width: 40%;
         left: -100%;
-        /* top: 30px; */
-        overflow: scroll;
+        top: 54px;
+        overflow-y: hidden;
+        overflow-y: scroll;
     }
     h1 {
          margin-top: 15px;
@@ -108,7 +109,7 @@ p {
         top: 0;
         background-color:yellowgreen ;
         width: 100%;
-        height: 10%;
+/*         height: 10%; */
     }
     .bt-menu {
         display: block;
@@ -116,6 +117,9 @@ p {
         color: white;
         font-weight: bold;
         text-decoration: none;
+    }
+    .main-content {
+        margin: 30px 30px;
     }
     nav ul li {
         display: block;
@@ -133,14 +137,6 @@ p {
     .children {
         position: relative;
     }
-/*     nav ul li .children {
-        position: relative;
-    } */
-    .fa-chevron-down {
-        margin-left: 30px;
-    
-    }
-
 }
 
 
