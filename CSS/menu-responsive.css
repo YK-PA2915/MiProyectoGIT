@@ -87,7 +87,7 @@ p {
     margin-right: 10px;
 }
 
-/* @media only screen and (min-width:200px)and(max-width:1100px) {
+@media only screen and (max-width:1100px) {
     body {
         padding-top: 60px;
     }
@@ -95,7 +95,7 @@ p {
     nav {
         position: fixed;  
         height: 100%;
-        width: 40%;
+        width: 38%;
         left: -100%;
         top: 54px;
         overflow-y: hidden;
@@ -136,8 +136,8 @@ p {
     .children {
         position: relative;
     }
-} */
-@media only screen and (min-width:200px) and (max-width:1100px) {
+}
+@media only screen and (min-width:200px) and (max-width:600px) {
     body {
         padding-top: 60px;
     }
