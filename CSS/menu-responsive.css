@@ -86,8 +86,38 @@ p {
     margin-left: 15px;
     margin-right: 10px;
 }
+.fa-home {
+    margin-right: 10px;
+}
+.fa-shopping-basket {
+    margin-right: 10px;
+}
+.fa-clipboard {
+    margin-right: 15px;
+}
+.fa-bullseye {
+    margin-right: 10px;
+}
+.fa-phone {
+    margin-right: 10px;
+}
+.fa-user-friends {
+    margin-right: 5px;
+}
+.fa-hands-helping {
+    margin-right: 5px;
+}
+.fa-quidditch {
+    margin-right: 5px;
+}
+.fa-laptop-house {
+    margin-right: 5px;
+}
+.fa-suitcase-rolling {
+    margin-right: 15px;
+}
 
-@media only screen and (max-width:1100px) {
+@media only screen and (max-width:1300px) {
     body {
         padding-top: 60px;
     }
