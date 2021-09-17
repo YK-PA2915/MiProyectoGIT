@@ -175,7 +175,7 @@ p {
     nav {
         position: fixed;  
         height: 100%;
-        width: 65%;
+        width: 70%;
         left: -100%;
         top: 54px;
         overflow-y: hidden;
