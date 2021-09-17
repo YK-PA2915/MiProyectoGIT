@@ -167,7 +167,7 @@ p {
         position: relative;
     }
 }
-@media only screen and (min-width:200px) and (max-width:600px) {
+@media only screen and (min-width:200px) and (max-width:630px) {
     body {
         padding-top: 60px;
     }
@@ -219,10 +219,9 @@ p {
         position: relative;
     }
     .fa-chevron-down {
-        margin-left: 20px;
+        margin-left: 10px;
     
     }
 }
-
 
 
