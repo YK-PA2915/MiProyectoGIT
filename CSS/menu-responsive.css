@@ -218,6 +218,10 @@ p {
     .children {
         position: relative;
     }
+    .fa-chevron-down {
+        margin-left: 20px;
+    
+    }
 }
 
 
