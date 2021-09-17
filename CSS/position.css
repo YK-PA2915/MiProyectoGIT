@@ -19,24 +19,22 @@
 .pos-absolute-1, .pos-absolute-2, .pos-absolute-3 {
     width: 250px ;
     height: 250px;
-    margin-top: 1px;
-    margin-left: 30px ;
+    margin-top: 5px;
     background-color: red;
     color: white;
-    top: 290%;
-    left: 50%;
+    top: 263%;
     position: absolute;
     text-align: center;
 }
-/* .pos-absolute-1 {
-     margin-left: 55%; ;
+.pos-absolute-1 {
+    left: 20%;
 }
 .pos-absolute-2 {
-    left: 65%;
+    left: 40%;
 }
 .pos-absolute-3 {
-    left: 80%;
-} */
+    left: 60%;
+}
 .pos-fixed-1 {
     width: 250px ;
     height: 80px;
