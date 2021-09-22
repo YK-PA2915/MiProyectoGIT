@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.img-principal {
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+}
+h1 {
+    text-align: center;
+    color: rgb(236, 3, 3);
+    margin-top: 40px;
+} 
+.img-principal-invisible {
+    width: 100%;
+}
+p {
+    margin: 25px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+nav {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+ul {
+    text-align: right;
+    width: 100%;
+
+}
+li {
+    display: inline-block;
+    margin: 17px;
+    color: rgb(9, 169, 187);
+    font-size: 1.3em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    color: rgb(9, 169, 187);
+    text-decoration: none;
+}
