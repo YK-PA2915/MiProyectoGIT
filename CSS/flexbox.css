@@ -1,0 +1,111 @@
+.box-style-1 {
+    background: springgreen;
+}
+.box-style-2 {
+    background: springgreen;
+    height: 300px;
+}
+.box-style-3 {
+    background: springgreen;
+    height: 600px;
+}
+.flex-direction-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.flex-direction-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.flex-wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.flex-no-wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+.flex-flow-column-wrap {
+    display: flex;
+    gap: 20px;
+    flex-flow: column wrap;
+    overflow: scroll;
+}
+.flex-flow-column-no-wrap {
+    display: flex;
+    gap: 20px;
+    flex-flow:column nowrap;
+}
+.flex-justify-space-between {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.flex-justify-space-around {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.flex-justify-space-evenly {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.flex-justify-flex-start {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+.flex-justify-flex-end {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.flex-justify-center {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.aling-item-flex-start {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.aling-item-flex-end {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+.aling-item-flex-center {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-flex {
+    background: rebeccapurple;
+    width: 200px;
+    height: 200px;
+    color: seashell;
+    /* margin: 20px; */
+    font-size: 1.5em;
+    text-align: center;
+}
+.item-flex-2 {
+    background: rebeccapurple;
+    width: 200px;
+    height: 300px;
+    color: seashell;
+    /* margin: 20px; */
+    font-size: 1.5em;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: tomato;
+}
