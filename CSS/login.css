@@ -18,11 +18,12 @@ body {
 h2 {
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 1.8em;
 }
 .main-content{
-    width: 320px;
-    height: 320px;
+    width: 350px;
+    height: 390px;
     background: rgba(255, 255, 255, 0.6);
     box-sizing: border-box;
     border-radius: 30px;
@@ -42,6 +43,8 @@ input {
     outline: none;
     padding-left: 15PX;
     border-bottom: 1px solid black;
+    padding-top:25px ;
+    
 }
 .fa-user-circle {
     color:black;
@@ -65,11 +68,15 @@ input {
 .input-pass {
     border: none;
     background-color: transparent;
+    
 }
 .remember-pass{
     font-size: 1.5em;
     text-decoration: none;
     color: rgb(199, 5, 5);
+}
+.remember-pass:hover {
+    color: red;
 }
 i{
     display: flex;
@@ -85,5 +92,8 @@ i{
     color: white;
     border: none;
     cursor: pointer;
+}
+.submit:hover {
+    color: red;
 }
 

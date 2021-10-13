@@ -109,3 +109,7 @@ h2 {
     text-align: center;
     color: tomato;
 }
+a {
+    text-decoration: none;
+    text-align:center;    
+}
