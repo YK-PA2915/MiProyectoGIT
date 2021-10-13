@@ -19,3 +19,11 @@ body {
     background-attachment: fixed;
 
 }
+.submit {
+    /* color: transparent;
+    background: transparent; */
+    border: none;
+    margin-left: 1100px;
+    margin-top: -50px;
+}
+
