@@ -4,7 +4,7 @@
 }
 nav {
     height: 100%;
-    margin-top: 0px;
+    margin-top: 5px;
     position: relative;
     background-color: salmon;
 }
@@ -23,12 +23,11 @@ ul {
     overflow: scroll;
     position: fixed;
     /* margin-top: 30px; */
-
 }
 li {
     display: inline-block; 
     position: relative;  
-    padding: 0px;
+    padding: 0;
 } 
 a {
     text-decoration: none;
@@ -51,11 +50,11 @@ a:hover {
     position: fixed;
     top: 0;
     width: 160px;
+    padding-bottom: 20px;
     padding-left: 20px;
     height: 60px;
     /* border-bottom: 1px solid rosybrown; */
 }
-
 .menu-box-invisible {
     width: 160px;
     margin-left: 20px;
