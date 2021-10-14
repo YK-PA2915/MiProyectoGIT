@@ -1,8 +1,7 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
-
+}
 nav {
     height: 100%;
     margin-top: 0px;
@@ -11,16 +10,17 @@ nav {
 }
 nav.mostrarNav {
     left: 0;
+    height: 100%;
 }
 ul {
     height: 100%;
     display: flex;
     flex-direction: column;
-    width: 240px;
+    width: 250px;
     text-align: left;
     list-style: none;
     margin-left: 10px;
-    overflow-y: scroll;
+    overflow: scroll;
     position: fixed;
     /* margin-top: 30px; */
 
@@ -28,7 +28,7 @@ ul {
 li {
     display: inline-block; 
     position: relative;  
-    padding: 10px;
+    padding: 0px;
 } 
 a {
     text-decoration: none;
@@ -60,7 +60,7 @@ a:hover {
     width: 160px;
     margin-left: 20px;
     visibility: hidden;
-    height: 60px;
+    height: 30px;
 
 }
 #side-header {
