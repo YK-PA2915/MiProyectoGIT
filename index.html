@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADSI_2280204</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/main-menu.css">
+    <!-- <link rel="stylesheet" href="CSS/main-menu.css"> -->
+    <link rel="stylesheet" href="23.menu_fixed.html">
+    <link rel="stylesheet" href="CSS/menu_fixed.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/menu_fixed.js"></script>
+    <link rel="stylesheet" href="icons/all.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,7 +22,13 @@
     
  </head>
   <body>
-   <nav>
+   <div class="menu-box-invisible">
+      <label class="menu-box-invisible" onclick="ocultarMenu()"></label>
+      </div>
+      <div class="menu-box">
+          <label class="bt-menu"chref="#" onclick="mostrarMennu()"><i class="fas fa-bars"></i></label>
+  </div>  
+   <nav class="mostrarNav">
     <Ul>
       <li><a href="index.html">Inicio</a></li>
       <li><a href="2.fuentes.html">Fuentes</a></li>
@@ -38,7 +49,9 @@
       <li><a href="17.background2.html">Background_2</a></li>
       <li><a href="18.flexbox.html">flexbox</a></li>
       <li><a href="19.login.html">Login</a></li>
-     
+      <li><a href="20.grid1_basic.html">Grid_1</a></li>
+      <li><a href="21.grid2_alineacion_items.html">Grid_2</a></li>
+      <li><a href="22.grid3_posicionamiento.html">Calendario</a></li>  
     </Ul>
    </nav>
 <div class="content-main">

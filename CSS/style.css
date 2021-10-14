@@ -80,3 +80,8 @@ p {
          url('../fonts/cinzel-decorative-v9-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/cinzel-decorative-v9-latin-900.svg#CinzelDecorative') format('svg'); /* Legacy iOS */
 }
+.content-main {
+    margin-left: 300px;
+    margin-right: 20px;
+    position: relative;
+}
