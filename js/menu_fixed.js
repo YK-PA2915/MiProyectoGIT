@@ -2,12 +2,16 @@ function mostrarMenu() {
     var navMostrar= document.getElementById("menu-principal");
     navMostrar.classList.toggle("mostrarNav")
 }
+function ocultarMenu() {
+    var navMostrar= document.getElementById("menu-principal");
+    navMostrar.classList.toggle("mostrarNav")
+}
 
-$(document).ready(main);
+ $(document).ready(main);
 var contador =0;
 
 function main() {
-    $(".menu-box").click(function() {
+    $(".hamburger-menu").click(function() {
         if(contador ==0) {
             $("nav").animate({
                 left: "0"
