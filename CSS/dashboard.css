@@ -6,6 +6,9 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(14, 69, 221);
 }
+body {
+    background-color: rgb(12, 224, 224);
+}
 .menu {
     height: 100vh;
     position: fixed;
