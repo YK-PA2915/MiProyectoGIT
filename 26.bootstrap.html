@@ -1,4 +1,4 @@
--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -209,102 +209,103 @@
         </div> 
       </div>
 <!-- SIETE  -->
-    <h2>Floating labels</h2> 
+  <h2>Floating labels</h2> 
     <div class="container"> 
-    <div class="form-floating mb-3">
-        <input type="text" class="form-control" id="floatingInput" placeholder="ingrese su nombre">
-        <label for="floatingInput">Nombre</label>
-      </div>
-      <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Password</label>
-      </div>
-    </div>
-    <br> 
-    <h2>Validation</h2> 
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="ingrese su nombre">
+          <label for="floatingInput">Nombre</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+    </div><br> 
+<!-- OCHO -->
+  <h2>Validation</h2> 
     <div class="container">
         <form class="row g-3 needs-validation" novalidate>
             <div class="col-md-4">
-              <label for="validationCustom01" class="form-label">Nombres</label>
-              <input type="text" class="form-control" id="validationCustom01" value="" required>
-              <div class="valid-feedback">
+                  <label for="validationCustom01" class="form-label">Nombres</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                <div class="valid-feedback">
                 Looks good!
-              </div>
-              <div class="invalid-feedback">
-               Error
-              </div>
+                </div>
+                <div class="invalid-feedback">
+                Error
+                </div>
             </div>
             <div class="col-md-4">
-              <label for="validationCustom02" class="form-label">Apellidos</label>
-              <input type="text" class="form-control" id="validationCustom02" value="" required>
-              <div class="valid-feedback">
+                  <label for="validationCustom02" class="form-label">Apellidos</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="" required>
+                <div class="valid-feedback">
                 Looks good!
-              </div>
+                </div>
             </div>
             <div class="col-md-4">
-              <label for="validationCustomUsername" class="form-label">Email</label>
-              <div class="input-group has-validation">
-                <span class="input-group-text" id="inputGroupPrepend">@</span>
-                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                  <label for="validationCustomUsername" class="form-label">Email</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
                 <div class="invalid-feedback">
                   Please choose a username.
                 </div>
-              </div>
+                </div>
             </div>
             <div class="col-md-6">
-              <label for="validationCustom03" class="form-label">Direccion</label>
-              <input type="text" class="form-control" id="validationCustom03" required>
-              <div class="invalid-feedback">
+                  <label for="validationCustom03" class="form-label">Direccion</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+               <div class="invalid-feedback">
                 La direccion no puede quedar vacia.
-              </div>
+               </div>
             </div>
             <div class="col-md-3">
-              <label for="validationCustom04" class="form-label">Departamento</label>
-              <select class="form-select" id="validationCustom04" required>
-                <option selected disabled value="">Choose...</option>
-                <option>...</option>
-              </select>
-              <div class="invalid-feedback">
-                Por favor seleccione un departamento
-              </div>
+                  <label for="validationCustom04" class="form-label">Departamento</label>
+                  <select class="form-select" id="validationCustom04" required>
+                      <option selected disabled value="">Choose...</option>
+                      <option>...</option>
+                  </select>
+                <div class="invalid-feedback">
+                    Por favor seleccione un departamento
+                </div>
             </div>
             <div class="col-md-3">
-              <label for="validationCustom05" class="form-label">Ciudad</label>
-              <input type="text" class="form-control" id="validationCustom05" required>
-              <div class="invalid-feedback">
-                Busque su ciudad
-              </div>
+                  <label for="validationCustom05" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+               <div class="invalid-feedback">
+                    Busque su ciudad
+               </div>
             </div>
             <div class="col-12">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                <label class="form-check-label" for="invalidCheck">
-                  Agree to terms and conditions
-                </label>
-                <div class="invalid-feedback">
-                  You must agree before submitting.
-                </div>
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        Agree to terms and conditions
+                    </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
               </div>
             </div>
             <div class="col-12">
               <button class="btn btn-primary" type="submit">Submit form</button>
             </div>
-          </form>
+        </form>
     </div>
-    <h2>Accordion</h2>
+<!-- NUEVE -->
+  <h2>Accordion</h2>
     <div class="container">
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
+                <h2 class="accordion-header" id="headingOne">
+                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                   </button>
+                </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
                   <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
               </div>
+            </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
@@ -332,7 +333,8 @@
             </div>
           </div>
     </div>
-    <h2>Alerts</h2>
+<!-- DIEZ -->
+  <h2>Alerts</h2>
     <div class="container">
        <h3>tipos</h3> 
         <div class="alert alert-primary" role="alert">
@@ -359,13 +361,25 @@
           <div class="alert alert-dark" role="alert">
             A simple dark alert—check it out!
           </div>
-        <h3>button Alarm</h3>
-        <div id="liveAlertPlaceholder"></div>
-          <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
-    </div>
-    <h2>Card</h2>
+        <h3 style="text-align: center;">Button Alarm</h3>
+        <div class="container ">
+          <div class="row">
+              <div class="col-4 "></div>
+                <div class="mb-3 col-4">
+
+                    <div id="liveAlertPlaceholder"></div>
+                    <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+
+                </div>
+              <div class="col-4 "></div>  
+          </div>       
+        </div>
+        
+  </div>
+<!-- ONCE -->
+  <h2>Card</h2>
     <div class="container">
-    <div class="row">
+      <div class="row">
         <div class="col-2"></div>
         <div class="card col-2">
             <img src="IMG/venecia.jpg" class="card-img-top" alt="...">
@@ -392,7 +406,7 @@
             </div>
         </div>
         <div class="card col-2">
-            <img src="IMG/isla.jpg" clas="card-img-top" alt="..."  height="55%">
+            <img src="IMG/sol.jpg" clas="card-img-top" alt="..."  height="">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -400,12 +414,11 @@
             </div>
         </div>
         <div class="col-2"></div>
-
     </div>
     <div class="row">
         <div class="col-3"></div>
         <div class="card col-6">
-            <iframe width="635" height="315" src="https://www.youtube.com/embed/mtkZvm5_08U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="635" height="315" src="https://www.youtube.com/embed/mtkZvm5_08U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%;"></iframe>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -415,14 +428,85 @@
         <div class="col-3"></div>
     </div>
     <br>
-    <h2>Collapse</h2>
-    
-   <!--  espacio para collapse -->
-    <h2>Modal</h2>
-    <div class="container">
+<!-- DOCE -->
+  <h2>Collapse</h2>
+  <div class="container ">
     <div class="row">
-    <div class="col-4"></div>
-    <div class="card col-4">
+        <div class="col-3 "></div>
+          <div class="mb-3 col-8">
+              <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+              </p>
+              <div class="row">
+                <div class="col-4">
+                  <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                      Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body">
+                      Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        <div class="col-1 "></div>  
+    </div>       
+  </div>
+<!-- ///////////////////////////////////////// -->
+<h2>Carousel</h2>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="IMG/carousel_1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>First slide label</h2>
+        <h3>--Primavera--</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="IMG/carousel_2.jpg" class="d-block w-100" alt="..." style="height: 92vh;">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Second slide label</h2>
+        <h3>--Verano--</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="IMG/carousel_3.jpg" class="d-block w-100" alt="..." style="height: 92vh;">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Third slide label</h2>
+        <h3 style="color: black;">--Otoño--</h3>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  
+
+<!-- TRECE -->   
+  <h2>Modal</h2>
+    <div class="container">
+        <div class="row">
+          <div class="col-4"></div>
+            <div class="card col-4">
     <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Launch demo modal
@@ -449,9 +533,30 @@
     </div> 
     <div class="col-4"></div>                
     </div>  
-    </div>
-    <br>
-    <h2>Popover</h2>
+    </div><br>
+<!-- CATORCE  -->
+  <h2>Offcanvas</h2>  
+  <div class="container ">
+    <div class="row">
+        <div class="col-5 "></div>
+          <div class="mb-3 col-4">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Toggle top offcanvas</button>
+
+                    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                      <div class="offcanvas-header">
+                        <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        ...
+                      </div>
+                    </div>
+          </div>
+        <div class="col-3 "></div>  
+    </div>       
+  </div>
+<!-- QUINCE -->
+  <h2>Popover</h2>
     <div class="container">
         <div class="row">
             <div class="col-4"></div>
@@ -470,5 +575,5 @@
     
     
 
-</body>
+</body> 
 </html>

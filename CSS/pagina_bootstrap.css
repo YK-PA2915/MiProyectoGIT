@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor_principal {
+    background: rgb(229, 244, 246);
+    margin: 20px 30px;
+
+}
+.d-flex {
+    align-self: stretch;
+}
+.nav{
+    background: rgb(246, 126, 13);
+    /* position: absolute; */
+}
+a:hover {
+    color: #000;
+
+
+}
+.carousel-item {
+    padding: 0;
+}

@@ -21,6 +21,7 @@ h2 {
 }
 .col-style {
     border: 2px solid rebeccapurple;
+    text-align: center;
 }
 .row-style {
     margin-bottom: 30px;
@@ -30,4 +31,19 @@ h2 {
 }
 .btn_boton {
     width: 100%;
+}
+.card-img-top {
+    width: 150%;
+}
+.margin-icon {
+    margin-right: 12px;
+}
+.card-style {
+    margin: 15px;
+}
+.img-top-style {
+    margin-top: 20px;
+}
+.font-black {
+    color: black;
 }
