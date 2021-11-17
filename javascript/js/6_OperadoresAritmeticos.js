@@ -20,7 +20,7 @@ console.log("====MULTIPLICACION====");
 var producto5 = 15600;
 var cantidadProducto = 5;
 var totalMultiplicacion = producto5 * cantidadProducto;
-console.log("El valor d elos 5 productos  es: $" + totalMultiplicacion);
+console.log("El valor de los productos  es: $" + totalMultiplicacion);
 
 /*Hallar el promedio de calificacion(Division) */
 console.log("====DIVISION====");
@@ -41,4 +41,7 @@ var sobrante = 0;
 /*cuanto dinero corresponde a cada uno y cuanto sobra */
 var montoIindividual = parseInt(ahorros / cantidadAportantes);
 console.log("El monto individual es. $" + montoIndividual);
-/*el signo d eresiduo es % */
+/*el signo de  residuo es % */
+montoSobrante= ahorros % cantidadAportantes;
+console.log("el monto sobrante es de :" + montoSobrante);
+console.log("el monto sobrante es de :" + (ahorros - (montoIindividual * cantidadAportantes)));    

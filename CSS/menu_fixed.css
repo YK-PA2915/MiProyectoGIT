@@ -75,8 +75,8 @@ nav.mostrarNav ~ .content-main {
 }
 .fa-bars {
     margin-right: 15px;
-    color:red;
-    /* color: rgb(235, 117, 192); */
+    color:rgb(255, 0, 0);
+    /* color: rgb(235, 117, 192); */ 
     font-size: .9em;
 
 }

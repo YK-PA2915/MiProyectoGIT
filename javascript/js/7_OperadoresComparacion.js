@@ -1,4 +1,4 @@
-"use strict"
+ "use strict"
 /*Operadores de comparacion
     1. >.............mayor que
     2. <.............menor que
