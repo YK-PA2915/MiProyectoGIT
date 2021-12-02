@@ -66,13 +66,13 @@ var valorDescuento3 = (bultoPapa * 0.08);
 if(bultoLimon>=100000){
     console.log("Bulto Limon");
     console.log("subtotal = $" + bultoLimon );
-    console.log("Descuento de 3% = $" + descuento1 );
+    console.log("Descuento de 3% = " + descuento1 );
     console.log("Total = $" + (bultoLimon - valorDescuento1)  );
 }
 else if(bultoLimon>=200000){
     console.log("Bulto Limon");
     console.log("subtotal = $" + bultoLimon );
-    console.log("Descuento de 5% = $" + descuento2 );
+    console.log("Descuento de 5% = " + descuento2 );
     console.log("Total = $" + (bultoLimon - valorDescuento2)  );
 }
 else if(bultoLimon>=300000){
