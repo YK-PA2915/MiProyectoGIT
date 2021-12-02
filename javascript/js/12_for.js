@@ -27,6 +27,14 @@ var aprendiz2 = new Array(2, "Luisa Fernanda", "Ramirez Montoya", 19, "B. Simon 
 
 var aprendiz3 =[3,"Jesus Nicolas","Ayerbe Guarnizo", 17, "B. Las Palmitas", 177];
 
+
+
 for( var i = 0; i <= aprendiz1.length -1 ; i++){
 console.log(aprendiz1[i]);
 }
+    for( var i = 0; i <= aprendiz1.length -1 ; i++){
+    console.log(aprendiz2[i]);
+    }
+    for( var i = 0; i <= aprendiz1.length -1 ; i++){
+    console.log(aprendiz3[i]);
+    }
