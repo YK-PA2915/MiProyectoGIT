@@ -55,27 +55,31 @@ var bultoLimon= 100000;
 var bultoPepino= 200000;
 var bultoPapa= 300000;
 
-var descuento1= (3*bultoLimon)/100;
-var descuento2= (5*bultoLimon)/100;
-var descuento3= (8*bultoLimon)/100;
+var descuento1=  0.3;
+var descuento2= 0.5;
+var descuento3= 0.8;
+
+var valorDescuento1 = (bultoLimon * 0.03);
+var valorDescuento2 = (bultoPepino * 0.05);
+var valorDescuento3 = (bultoPapa * 0.08);
 
 if(bultoLimon>=100000){
     console.log("Bulto Limon");
     console.log("subtotal = $" + bultoLimon );
     console.log("Descuento de 3% = $" + descuento1 );
-    console.log("Total = $" + (bultoLimon - descuento1)  );
+    console.log("Total = $" + (bultoLimon - valorDescuento1)  );
 }
 else if(bultoLimon>=200000){
     console.log("Bulto Limon");
     console.log("subtotal = $" + bultoLimon );
     console.log("Descuento de 5% = $" + descuento2 );
-    console.log("Total = $" + (bultoLimon - descuento2)  );
+    console.log("Total = $" + (bultoLimon - valorDescuento2)  );
 }
 else if(bultoLimon>=300000){
     console.log("Bulto Limon");
     console.log("subtotal = $" + bultoLimon );
     console.log("Descuento de 8% = " + descuento3 );
-    console.log("Total =" + (bultoLimon - descuento3)  );
+    console.log("Total =" + (bultoLimon - valorDescuento3)  );
 }
 else {
     console.log("Se produjo un error");
@@ -86,19 +90,19 @@ if(bultoPepino>=200000){
     console.log("Bulto Pepino");
     console.log("subtotal = $" + bultoPepino );
     console.log("Descuento de 5%= " + descuento2 );
-    console.log("Total =" + (bultoPepino - descuento2)  );
+    console.log("Total =" + (bultoPepino - valorDescuento2)  );
 }
 else if(bultoPepino>=100000){
     console.log("Bulto Pepino");
     console.log("subtotal = $" + bultoPepino );
     console.log("Descuento de 3%= " + descuento1 );
-    console.log("Total =" + (bultoPepino - descuento1)  );
+    console.log("Total =" + (bultoPepino - valorDescuento1)  );
 }
 else if (bultoPepino>=300000){
     console.log("Bulto Pepino");
     console.log("subtotal = $" + bultoPepino );
     console.log("Descuento de 8% = " + descuento3 );
-    console.log("Total =" + (bultoPepino - descuento3)  );
+    console.log("Total =" + (bultoPepino - valorDescuento3)  );
 }
 else {
     console.log("Se produjo un error");
@@ -109,19 +113,19 @@ if(bultoPapa>=300000){
     console.log("Bulto Papa");
     console.log("subtotal = $" + bultoPapa );
     console.log("Descuento de 8% = " + descuento3 );
-    console.log("Total =" + (bultoPapa - descuento3)  );
+    console.log("Total =" + (bultoPapa - valorDescuento3)  );
 }
 else if(bultoPapa>=100000){
     console.log("Bulto Papa");
     console.log("subtotal = $" + bultoPapa );
     console.log("Descuento de 3% = " + descuento1 );
-    console.log("Total =" + (bultoPapa - descuento1)  );
+    console.log("Total =" + (bultoPapa - valorDescuento1)  );
 }
 else if(bultoPapa>=200000){
     console.log("Bulto Papa");
     console.log("subtotal = $" + bultoPapa );
     console.log("Descuento de 5% = " + descuento2 );
-    console.log("Total =" + (bultoPapa - descuento2)  );
+    console.log("Total =" + (bultoPapa - valorDescuento2)  );
 }
 else {
     console.log("Se produjo un error");
