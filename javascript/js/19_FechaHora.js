@@ -63,3 +63,22 @@ mesStr[11] ="Diciembre";
 console.log("Fecha: " + " " +  diaSemanaStr[dia] + " "  + diaMes + " ,"+ "de " + mesStr[mes] + " del año " + anyo);
 
 
+console.log("--Determinar si ya vencio--");
+var fechaHoraLimite = new Date(Date.UTC(2021, 11 , 9, 8, 35));
+fechaHoraLimite.setHours(8);
+
+
+console.log("Fecha y Hora de vencimiento: " + fechaHoraLimite);
+if (anyo <= fechaHoraLimite.getFullYear() &&
+mes<=fechaHoraLimite.getMonth()&&
+diaMes<=fechaHoraLimite.getDate() &&
+hora<=fechaHoraLimite.getHours() &&
+minutos<=fechaHoraLimite.getMinutes() ){
+    console.log("falta: " + (diaMes - fechaHoraLimite.getDate()) + " dias " + 
+    (hora - fechaHoraLimite.getHours()) + " horas, " + 
+    (fechaHoraLimite.getMinutes() - minutos) + " minutos");
+    console.log("El envio fue realizado con exito");
+}
+else{
+    console.log("la fecha deenvio ya paso");
+}
