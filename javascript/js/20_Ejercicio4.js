@@ -18,7 +18,7 @@ var today = new Date();
 var endYear = new Date(2021,11, 28,23, 59, 59, 999); // Establece día y mes
 endYear.setFullYear(today.getFullYear()); // Establece año a este año
 var msPerDay = 24 * 60 * 60 * 1000; // Número de milisegundos por día
-var daysLeft = (endYear.getTime() - today.getTime()) / msPerDay +1;
+var daysLeft = (endYear.getTime() - today.getTime()) / msPerDay ;
 var daysLeft = Math.round(daysLeft); // devuelve los días que quedan en el año
 
 if (today < endYear){
