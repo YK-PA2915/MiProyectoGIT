@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Asociados</title>
+    <style>
+        img{
+            width: 50px;
+        }
+        .icon {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+EVENTOS RELACIONADOS AL CLICK
+       <!-- <script src="js/script.js"></script>  -->
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nam quae optio sapiente sit eligendi architecto possimus aliquid quasi saepe deleniti ipsum sint, sunt consectetur amet atque nulla nostrum adipisci nihil natus tenetur molestias asperiores numquam cum? Quibusdam animi dicta temporibus necessitatibus earum dolore autem sint? Autem, alias? Ut eos rerum quia ducimus ex sapiente exercitationem ratione harum explicabo quisquam alias cupiditate iste, quos voluptates eum totam! Iusto quam odio eos voluptates repellat quibusdam provident nemo. Saepe maxime asperiores veritatis sapiente quia ipsa odit libero quas, temporibus ut quo sunt nesciunt repellendus tempora delectus optio. Iste magnam illum explicabo vel nam facere quas neque voluptatibus, quo repellat placeat sapiente quidem atque excepturi aliquam sed officiis rerum tempore, unde non, asperiores inventore! Fuga libero consequatur dolores fugit. Voluptatibus dignissimos laudantium, qui autem illo totam doloremque voluptate, est nam expedita quis harum adipisci molestiae fugit temporibus praesentium! Vitae esse itaque, dolores alias unde placeat fugit iusto omnis sint repudiandae recusandae tempore ab laboriosam adipisci asperiores id est dolorum eaque! Incidunt animi accusantium explicabo maiores nesciunt ut asperiores ipsam sequi optio? Aliquam, vitae facere nobis incidunt animi ex accusantium alias suscipit odit quisquam non saepe, aliquid quasi nam laboriosam dolore, harum earum ullam laudantium voluptas itaque iusto! Esse est quia cum itaque id molestias explicabo nam nulla error eius cupiditate incidunt repudiandae voluptatum, sint tempora, corporis nisi quidem, harum omnis. Voluptates sit eum repudiandae odio, pariatur impedit aperiam, nostrum et praesentium facere quaerat quod ipsa iure, vero tempora! Officia fuga temporibus officiis illum neque ipsum magni laboriosam modi veritatis soluta, sed maiores doloribus. Optio, vel. Ab laborum commodi possimus iusto minus enim officiis! Praesentium totam consectetur necessitatibus voluptas vel consequuntur sint vero cumque molestiae. Eaque praesentium consequuntur enim voluptates sint, fugiat nesciunt placeat? Officiis et quidem porro fugit rerum. Repudiandae ex rerum voluptatum?
+       </p>
+
+       <!-- codigo LEGACY -->
+       <!-- devuelve al inicio --> 
+       <a href="#"onclick="alert('hola!!');">haga click aqui </a>
+       <br>
+      <!--  No devuele al inicio --> 
+       <a href="javascipt:void(0)" onclick="saludos('Bienvenido aprendices');">Haga click aqui </a>
+
+       <br>
+
+       <input type="button" value="click" onclick="agregarCarro('ICONO')">
+       <button type="button"><img src="iconos/carritos.png" onclick="agregarCarro('ICONO')"></button>
+       <img class="icon"  src="iconos/carritos.png" onclick="agregarCarro('ICONO')">
+
+EVENTOS RELACIONADOS AL MOUSE 
+
+<img src="img/" onmouseover="src='img/'" onmouseout="src=''">
+
+</body>
+<script>
+    function saludos(saludo) {
+        alert(saludo);
+        
+    }
+</script>
+<script>
+    function agregarCarro(icono) {
+        alert(icono);
+        
+    }
+</script>
+</html>
