@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/vañidacion.css">
+    <title>Formulario </title>
+</head>
+<body>
+    <form class="form" onsubmit=" ValidaInfo('numeroDocumento');">
+        <h2>Diligenciar Formulario</h2>
+        <tr>
+            <td>Nombre:
+                <input type="text" placeholder="Escriba sunombre aqui .."  required></input> 
+            </td>
+        </tr>
+        <tr>
+            <td>Documento:
+                <input type="number" placeholder="Escriba su documento aqui .." id="numeroDocumento"></input> 
+            </td>
+        </tr>
+        <tr >
+            <td>
+                <input class="button" type="submit" name="ENVIAR" value="ENVIAR" >
+            </td>
+        </tr>
+        
+
+      </form>
+      <script>
+          function ValidaInfo(numeroDocumento) { 
+            var texto = document.getElementById(numeroDocumento).value;
+              if (texto === "") {
+                  alert("ingrese el numero del documento");
+              }
+              else {
+                  alert("datos guardados");
+              }
+          }
+      </script>   
+
+
+</body>
+</html>
