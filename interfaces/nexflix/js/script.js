@@ -20,3 +20,4 @@
     function intercambiarImagen(ruta){
         document.getElementById("ImgPrincipal").src= ruta;
     }
+    
