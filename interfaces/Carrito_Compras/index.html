@@ -9,35 +9,49 @@
 </head>
 <body>
     
-    <div class="contenedor">  
+    <div class="contenedor"> 
+        <div class="imagen-libro"> 
             <img class="imagen-libro" src="image/tunel.webp.crdownload">   
-        
+        </div>
+    
+        <div class="info-precio">
+            <label>Subtotal </label><label class="tipoMoneda"> COP </label><label id="valorSubtotal"></label>
+           
+        </div>
+        <div class="barra-productos">
+                <label> Proceder al pago (<label id="numeroProductos"><label id="cantidad"></label></label>)</label>
+                
+        </div>
+        <div class="info-texto">
+            <label>Una obra latinoamericana de talla universal.</label><br>
+            <label>Título: El Túnel</label><br>
+            <label>Autor: Ernesto Sábato</label><br>   
+            <label> Editorial: Booket</label><br>       
+            <label> Año: 2002</label>  <br>                  
+            <label> País: Chile</label><br>     
+            <label> Género: Literatura Latinoamericana.</label>   
+            
+        </div>
+        <div class="precio">
+            <label class="cupo">COP</label><label class="valorUnitario" id="valor-unitario"></label>
+        </div>
         <div class="botonNumeros"> 
-            <div class="restarStock boton">-</div>
+            <div class="restarStock boton" onclick="pruebaResta();">-</div>
             <div id="cantidadLibro" class="unidades boton">1</div>
             <div class="sumarStock boton" onclick="pruebaSuma();">+</div>
         </div>
-        <div class="info-precio">
-            <h1 style="color: white ;">Carrito</h1>
+        <div class="eliminar">
+            <input class="btneliminar"  type="submit" name="HOLA" value="Eliminar">
         </div>
-        <div class="barra-productos">
-            <div class="barra">
-                <p class="texto-productos">Proceder al pago de productos</p>
-                
-            </div>
+        <div class="MasTarde ">
+            <input class="btnmasTarde"  type="submit" name="HOLA" value="Guardar para mas Tarde">
         </div>
-        <div class="info-texto">
-            <p class="texto-libro">
-                Una obra latinoamericana de talla universal.
 
-                Título: El Túnel
-                Autor: Ernesto Sábato
-                Editorial: Booket
-                Año: 2002
-                País: Chile
-                Género: Literatura Latinoamericana.
-            </p>    
-        </div>
+
+       <!--  <div class="pie">
+            <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, accusantium voluptates. Odio, nesciunt laborum deserunt vel quo facere animi. Perferendis eum libero fugiat possimus expedita deleniti placeat dignissimos nam maiores.</h1>
+
+        </div> -->
 
         
         
