@@ -42,7 +42,7 @@ cursor: pointer;
 }
 #contenidoPrincipal{
     display: grid;
-    border-bottom: 1px solid rgb(48,48,48,.2);
+   /*  border-bottom: 1px solid rgb(48,48,48,.2); */
     padding: 20px;
     box-sizing: border-box;
     grid-template:  "img    descripcion"25px
