@@ -70,7 +70,7 @@ car8.year=2021;
 car8.precio=300000000;
 car8.kilometraje=0;
 car8.ciudad="Popayan";
-car8.imagen="img/toyota-hilux.jpg";
+car8.imagen="img/toyota-Hilux.jpg";
     
 
 let car3 = new automovil();
