@@ -14,13 +14,43 @@ class automovil{
 
 let car1 =new automovil();
 car1.marca="Mazda";
-car1.modelo="3 pride";
-car1.version="";
+car1.modelo="CX-30";
+car1.version="Turbo";
 car1.year=2020;
 car1.precio=120000000;
 car1.kilometraje=60;
 car1.ciudad="Bogotá";
-car1.imagen="img/mazda3-1.jpg";
+car1.imagen="img/mazda-CX-30.jpg";
+
+let car5 = new automovil();
+car5.marca="Mazda";
+car5.modelo="CX-5";
+car5.version="";
+car5.year=2020;
+car5.precio=440000000;
+car5.kilometraje=0;
+car5.ciudad="Ibague";
+car5.imagen="img/mazda-CX-5.jpg";
+
+let car6 = new automovil();
+car6.marca="Mazda";
+car6.modelo="2";
+car6.version="";
+car6.year=2015;
+car6.precio=60000000;
+car6.kilometraje=0;
+car6.ciudad="Ibague";
+car6.imagen="img/mazda-2.jpg";
+
+let car7 = new automovil();
+car7.marca="Mazda";
+car7.modelo="323";
+car7.version="";
+car7.year=1980;
+car7.precio=20000000;
+car7.kilometraje=13000;
+car7.ciudad="Ibague";
+car7.imagen="img/mazda-323.jpg";
 
 let car2 = new automovil();
 car2.marca="Toyota";
@@ -31,6 +61,16 @@ car2.precio=300000000;
 car2.kilometraje=0;
 car2.ciudad="cali";
 car2.imagen="img/prado.jpg";
+
+let car8 = new automovil();
+car8.marca="Toyota";
+car8.modelo="Hilux";
+car8.version="";
+car8.year=2021;
+car8.precio=300000000;
+car8.kilometraje=0;
+car8.ciudad="Popayan";
+car8.imagen="img/toyota-hilux.jpg";
     
 
 let car3 = new automovil();
@@ -55,16 +95,20 @@ car4.imagen="img/bmw.jpg";
 
 
 
+
+
+
+
 function Busqueda(car){
     let contenedorPrincipal=document.getElementById("contenidoPrincipal");
-    let contimg= document.createElement("div");
-    contenedorPrincipal.appendChild(contimg);
-    contimg.setAttribute("class","contenido");
+    let contenedorProducto= document.createElement("div");
+    contenedorPrincipal.appendChild(contenedorProducto);
+    contenedorProducto.setAttribute("class","contenido");
 
     let img= document.createElement("img");
     img.setAttribute("src", car.imagen);
     img.setAttribute("class","img");
-    contenedorPrincipal.appendChild(img);
+    contenedorProducto.appendChild(img);
 
     
 
@@ -75,32 +119,32 @@ function Busqueda(car){
     let textValorCar= document.createTextNode("$" + precioFormat);
     valorcar.appendChild(textValorCar);
     valorcar.setAttribute("class","precio");
-    contenedorPrincipal.appendChild(valorcar);
+    contenedorProducto.appendChild(valorcar);
 
     let descripcion= document.createElement("label");
     let textdesccar=document.createTextNode(car.marca+" " +car.modelo+" "+ car.version);
     descripcion.appendChild(textdesccar);
     descripcion.setAttribute("class","descripcion");
 
-    contenedorPrincipal.appendChild(descripcion);
+    contenedorProducto.appendChild(descripcion);
 
     let yearcar=document.createElement("label");
     let textyear=document.createTextNode(car.year);
     yearcar.appendChild(textyear);
     yearcar.setAttribute("class","year");
-    contenedorPrincipal.appendChild(yearcar);
+    contenedorProducto.appendChild(yearcar);
 
     let kilometrajecar=document.createElement("label");
     let textkilometraje=document.createTextNode(car.kilometraje+" kilometros");
     kilometrajecar.appendChild(textkilometraje);
     kilometrajecar.setAttribute("class","kilometraje");
-    contenedorPrincipal.appendChild(kilometrajecar);
+    contenedorProducto.appendChild(kilometrajecar);
 
     let city=document.createElement("label");
     let textcity=document.createTextNode(car.ciudad);
     city.appendChild(textcity);
     city.setAttribute("class","ciudad");
-    contenedorPrincipal.appendChild(city);
+    contenedorProducto.appendChild(city);
 
 }
 
@@ -110,10 +154,14 @@ window.addEventListener("keydown",function(event){
         console.log(Busq);
         cleanwindow();
         if(Busq=="mazda"){
-            Busqueda(car1);           
+            Busqueda(car1); 
+            Busqueda(car5); 
+            Busqueda(car6); 
+            Busqueda(car7);              
         }
         else if(Busq=="toyota"){
             Busqueda(car2);
+            Busqueda(car8);
         }
         
         else if(Busq=="audi"){

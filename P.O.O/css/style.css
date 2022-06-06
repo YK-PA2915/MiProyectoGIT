@@ -37,12 +37,12 @@ cursor: pointer;
 }
 
 /* contenidos de busqueda*/
-.contenedorAbsoluto{
-    display: block;
+.contenedorProducto{
+    display: inline-block;
 }
-#contenidoPrincipal{
-    display: grid;
-   /*  border-bottom: 1px solid rgb(48,48,48,.2); */
+ /* #contenidoPrincipal{
+   display: grid;
+    border-bottom: 1px solid rgb(48,48,48,.2); 
     padding: 20px;
     box-sizing: border-box;
     grid-template:  "img    descripcion"25px
@@ -53,6 +53,20 @@ cursor: pointer;
                     "img    empty     "auto /
                      6fr    8fr         ;
     margin-bottom: solid 1px black;
+}*/
+.contenido{
+    display: grid;
+    /*  border-bottom: 1px solid rgb(48,48,48,.2); */
+     padding: 20px;
+     box-sizing: border-box;
+     grid-template:  "img    descripcion"35px
+                     "img    precio "    35px
+                     "img    year "      35px
+                     "img    kilometraje"35px
+                     "img    ciudad     "35px
+                     "img    empty     "auto /
+                      6fr    8fr         ;
+     margin-bottom: solid 1px black;
 }
 .img{
     width: 100%;
