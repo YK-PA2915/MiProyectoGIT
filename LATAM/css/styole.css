@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: grid;
+     grid-area: head;
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    background: rgb(42, 0, 136);
+    grid-template: "     latam      busqueda     barraMenu" auto/
+                           3fr         5fr       2fr ;
+}
+
+.latam {
+    grid-area: latam;
+   
+}
+#textBuscador{
+    grid-area: busqueda; 
+    background: #fff;
+    border: none;
+    border-radius: 30px;
+    width: 90%;
+    margin: 20px auto 20px auto;
+    display: block;
+    height: 40px;
+    outline: none;
+    padding-left: 20px;
+}
+.barraMenu {
+    grid-area: barraMenu;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+ 
+}
+
+
+.contenido-div  {
+    display: grid;
+    background-color: darkcyan;
+     padding: 20px;
+     box-sizing: border-box;
+     grid-template:  "origen   destino  precio   inicio " 30px
+                      3fr      3fr      3fr       3fr;
+     margin-bottom: solid 1px black;
+} 
+.origen {
+    grid-area: origen;
+}
+.destino {
+    grid-area: destino;
+}
+.precio {
+    grid-area: precio;
+}
+.inicio {
+    grid-area: inicio;
+}
