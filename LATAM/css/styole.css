@@ -2,15 +2,17 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: rgba(242, 240, 240, 0.976);
+}
 .head{
     display: grid;
-     grid-area: head;
+    grid-area: head;
     width: 100%;
-    position: fixed;
     height: 80px;
     background: rgb(42, 0, 136);
-    grid-template: "     latam      busqueda     barraMenu" auto/
-                           3fr         5fr       2fr ;
+    grid-template: " latam     busqueda  barraMenu" auto/
+                    3fr        5fr       2fr ;
 }
 
 .latam {
@@ -40,26 +42,62 @@
     margin-top: 15px;
  
 }
-
-
 .contenido-div  {
+    margin-top: 10px;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 25%;
+    width: 50%;
     display: grid;
-    background-color: darkcyan;
-     padding: 20px;
-     box-sizing: border-box;
-     grid-template:  "origen   destino  precio   inicio " 30px
-                      3fr      3fr      3fr       3fr;
-     margin-bottom: solid 1px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    grid-area: contenido-div;
+    box-sizing: border-box;
+    grid-template: "economico        economico      economico " 40px
+                   "inicio          duracion        llegada " 40px
+                   "origen          duracion        destino" 40px
+                   "linea-divisora  linea-divisora  linea-divisora"
+                   "empty-let       empty           precio" 50px/
+                    1fr              1fr            1fr;
+    margin-bottom: solid 1px black;
 } 
 .origen {
     grid-area: origen;
+}
+
+.duracion {
+    grid-area: duracion;
 }
 .destino {
     grid-area: destino;
 }
 .precio {
     grid-area: precio;
+    color: blue;
 }
 .inicio {
     grid-area: inicio;
+    color: blue;
+}
+.llegada {
+    grid-area: llegada;
+    color: blue;
+}
+.style-economic {
+    grid-area: economico;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    padding: 5px;
+    font-size: .95em;
+    width: 150px;
+    color: white;
+    background-color: darkcyan;
+}
+.linea-divisora {
+    grid-area: linea-divisora;
+    margin: 0 20px 0 20px;
+    background-color: gray;
+    font-size: .2em;
+    /* font-size: 1em; */
 }
