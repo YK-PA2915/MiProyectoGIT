@@ -187,16 +187,4 @@ h1,h2{
     }
    
 }
-@media (min-width: 500px) {
-    .sliderMain {
-        width: auto;
-        display: block;
-        background-image: url("../IMG/HOME2.png");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        /* background-size: cover; */
-        background-size: contain;
-        height:100VH;
-    }
-   
-}
+
