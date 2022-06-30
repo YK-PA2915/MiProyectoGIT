@@ -164,22 +164,39 @@ h1,h2{
 }
 @media (max-width: 700px) {
     .sliderMain {
+        width: auto;
         display: block;
-        background-image: url("../img/ed.png");
+        background-image: url("../IMG/HOME2.png");
         background-repeat: no-repeat;
         background-position-x: center;
         background-size: contain;
-        height: 531px;
+       /*  background-size: cover; */
+        height: 800px;
     }
 }
 @media (min-width: 701px) {
     .sliderMain {
+        width: auto;
         display: block;
-        background-image: url("../img/home2.png");
+        background-image: url("../IMG/HOME2.png");
         background-repeat: no-repeat;
-        /* background-position-x: center;
-        background-size: cover; */
-        height: 531px;
+        background-position-x: center;
+        /* background-size: cover; */
+        background-size: contain;
+        height:800px;
+    }
+   
+}
+@media (min-width: 500px) {
+    .sliderMain {
+        width: auto;
+        display: block;
+        background-image: url("../IMG/HOME2.png");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        /* background-size: cover; */
+        background-size: contain;
+        height:100VH;
     }
    
 }
