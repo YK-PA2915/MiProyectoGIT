@@ -1,0 +1,81 @@
+
+.box {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding-left: 25%;
+    padding-top: 30px;
+   
+}
+div.img-prin  , div.img-2 , div.img-3 , div.img-4 {
+    background-color: rgb(202, 23, 23);border-radius: 15px;
+    cursor: pointer;
+    align-content: center;
+
+}
+
+
+img {
+    width: 100%;
+}
+
+
+.content-prin{
+    display: none;
+}
+.box  {  
+    z-index: 100;
+    display: grid;
+    position: absolute;
+    margin-top: -44%;
+    background-color:rgba(64, 64, 64, .4);
+    grid-template: "empty-izq    img-prin   img-prin   img-prin  img-prin   img-prin  empty-der "80px
+                   "empty-izq    img-prin   img-prin   img-prin  img-prin   img-prin  empty-der"80px
+                   "empty-izq    img-prin   img-prin   img-prin  img-prin   img-prin  empty-der"80px
+                   "empty-izq    empty-1    empty-2    empty-3   empty-4    empty-5   empty-der"15px
+                   "empty-izq    img-2      empty-6    img-3     empty-7    img-4     empty-der"auto/
+                     15px        100px       15px      100px     15px       100px       15px     ;
+     
+}
+.img-prin {
+    grid-area: img-prin;
+    width: 100%;
+    display: flex;
+}
+.img-2 {
+    grid-area: img-2;
+    width: 100%;
+    display: flex;
+    
+}
+.img-3 {
+    grid-area: img-3;
+    width: 100%;
+    display: flex;
+   
+}
+.img-4 {
+    grid-area: img-4;
+    width: 100%;
+    display: flex;
+    
+}
+.redondo{
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% ;
+  margin-top: 90px;
+  margin-left: -15px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.equis{
+    grid-area: equis;
+    cursor: pointer;
+    width: 5%;
+}
+
+
