@@ -12,14 +12,12 @@ img {
 }
 .contenedor {
     margin: 0 auto;
-    /* background-color: brown; */
     display: grid;
     width: 530px;
     height: 600px;
     position: relative;
    
-    grid-template: "empty-izq            info-precio     info-precio         info-precio        info-precio       empty-der" 50px
-                  
+    grid-template: "empty-izq            info-precio     info-precio         info-precio        info-precio       empty-der" 50px         
                    "empty-izq            imagen-libro    empty-6             info-texto         info-texto        empty-der" 200px
                    "empty-izq            empty           empty-5             precio             precio            empty-der" 15px
                    "empty-izq            imagenes        empty-5             precio             precio            empty-der" 100px

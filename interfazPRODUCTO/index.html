@@ -35,12 +35,13 @@
                        
             </div>
             <div class="precio">
-                <label class="cupo">$ 220000</label><label class="valorUnitario" id="valor-unitario"></label>
+                <label class="cupo">$ 220000</label><label class="valorUnitario" id="valor-unitario"></label><br>
+                 <br> <label for="" class="vcd" id="vcd">Costo Total : 0</label>
             </div>
             <div class="botonNumeros"> 
-                <div class="restarStock boton" onclick="pruebaResta();">-</div>
-                <div id="cantidadLibro" class="unidades boton">1</div>
-                <div class="sumarStock boton" onclick="pruebaSuma();">+</div>
+                <div class="restarStock boton" id="botonMenos"  >-</div>
+                <div id="cantidad" class="unidades boton">0</div>
+                <div class="sumarStock boton" id="plus"  >+</div>
             </div>
             <div class="agregar">
                 <input class="btneliminar"  type="submit" name="HOLA" value="Agregar">
@@ -62,7 +63,7 @@
                 <img  id="img2"  onclick="intercambiarImagen('img/img-2.png');" class="img"  src="img/img-2.png" alt="">
             </div>
             <div class="img-3">
-                <img  id="img3" onclick="intercambiarImagen('img/img/img-3.png');" class="img"   src="img/img-3.png" alt="">
+                <img  id="img3" onclick="intercambiarImagen('img/img-3.png');" class="img"   src="img/img-3.png" alt="">
             </div>
             <div class="img-4"> 
                 <img  id="img4"  onclick="intercambiarImagen('img/img-4.png');" class="img"  src="img/img-4.png" alt="">
@@ -70,12 +71,10 @@
 
             <img class="equis"  src="img/salir.png" alt="" id="exit">
 
-            <button class="redondo">
-                <
-            </button>
-            <button class="redondo">
-                >
-            </button>
+                <img class="atras"  src="img/anterior.png" alt="">
+          
+                <img class="sigui" src="img/siguiente.png" alt="">
+          
 
 
            

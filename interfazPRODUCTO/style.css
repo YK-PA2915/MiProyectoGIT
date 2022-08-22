@@ -1,11 +1,8 @@
 
 .box {
-    /* background-color: aqua; */
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-    padding-left: 25%;
-    padding-top: 30px;
+    padding-top: 50%;
+    margin-top: -90%;
+    padding-left: 250PX;
    
 }
 div.img-prin  , div.img-2 , div.img-3 , div.img-4 {
@@ -20,23 +17,37 @@ img {
     width: 100%;
 }
 
-
 .content-prin{
+    
     display: none;
 }
 .box  {  
+    background-color:rgba(64, 64, 64, .8);
+    height: 100vh;
+    width: 100%;
     z-index: 100;
-    display: grid;
     position: absolute;
-    margin-top: -44%;
-    background-color:rgba(64, 64, 64, .4);
-    grid-template: "empty-izq    img-prin   img-prin   img-prin  img-prin   img-prin  empty-der "80px
-                   "empty-izq    img-prin   img-prin   img-prin  img-prin   img-prin  empty-der"80px
-                   "empty-izq    img-prin   img-prin   img-prin  img-prin   img-prin  empty-der"80px
-                   "empty-izq    empty-1    empty-2    empty-3   empty-4    empty-5   empty-der"15px
-                   "empty-izq    img-2      empty-6    img-3     empty-7    img-4     empty-der"auto/
-                     15px        100px       15px      100px     15px       100px       15px     ;
+    display: grid;
+    grid-template: "empty-izq     img-prin   img-prin   img-prin  img-prin   img-prin    equis   empty-der "80px
+                   "empty-izq     img-prin   img-prin   img-prin  img-prin   img-prin    nul      empty-der"80px
+                   "empty-izq     img-prin   img-prin   img-prin  img-prin   img-prin    nul      empty-der"80px
+                   "empty-izq     empty-1    empty-2    empty-3   empty-4    empty-5     nul      empty-der"15px
+                   "empty-izq     img-2      empty-6    img-3     empty-7    img-4       nul      empty-der"160px/
+                    55px        100px       5px      100px      5px       100px          25px         25px;
      
+}
+
+.atras{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin-top: 120px;
+}
+.sigui{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin-top: 120px;
 }
 .img-prin {
     grid-area: img-prin;
@@ -75,7 +86,9 @@ img {
 .equis{
     grid-area: equis;
     cursor: pointer;
-    width: 5%;
+    float: right;
+    height: 30px;
+    width: 30px;
 }
 
 
